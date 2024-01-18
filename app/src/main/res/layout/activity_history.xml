@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
 
     <!--タイトル-->
     <TextView
@@ -40,21 +42,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvAchievementsTitle">
+        app:layout_constraintTop_toBottomOf="@id/tvHistoryTitle">
 
         <LinearLayout
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="105dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="105dp">
             <!--1行ここから-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="0dp"
-                android:background="@drawable/shape_style"
+                android:background="@drawable/shape_style_white"
                 android:orientation="horizontal"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp">
@@ -66,34 +68,30 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/tvHistoryPet1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="@string/bt_achievements_feed_day2"
+                        android:text="@string/tv_history_pet"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/tvHistoryDays1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="\u00A550獲得"
-                        android:textAlignment="textEnd"
+                        android:text="@string/tv_history_days"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvHistoryMoney1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_money"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
 
                 </LinearLayout>
-
-                <Button
-                    android:id="@+id/btAchievementsFeedDay1"
-                    android:layout_width="106dp"
-                    android:layout_height="75dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="3dp"
-                    android:backgroundTint="@color/pinkButton"
-                    android:textColor="@color/black" />
 
             </LinearLayout>
             <!--1行ここまで-->
@@ -102,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/shape_style"
+                android:background="@drawable/shape_style_white"
                 android:orientation="horizontal"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp">
@@ -114,34 +112,31 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/tvHistoryPet2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="@string/bt_achievements_feed_day2"
+                        android:text="@string/tv_history_pet"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView51"
+                        android:id="@+id/tvHistoryDays2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="bottom"
-                        android:text="\u00A550獲得"
-                        android:textAlignment="textEnd"
+                        android:text="@string/tv_history_days"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvHistoryMoney2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_money"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
                 </LinearLayout>
 
-                <Button
-                    android:id="@+id/btAchievementsFeedDay11"
-                    style="@style/Widget.Material3.Button.ElevatedButton"
-                    android:layout_width="106dp"
-                    android:layout_height="75dp"
-                    android:layout_marginLeft="10dp"
-                    android:backgroundTint="@color/grayButton"
-                    android:text="Challenge"
-                    android:textColor="@color/black" />
             </LinearLayout>
             <!--1行ここまで-->
 
@@ -150,7 +145,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/shape_style"
+                android:background="@drawable/shape_style_white"
                 android:orientation="horizontal"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp">
@@ -162,81 +157,31 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/tvHistoryPet３"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="@string/bt_achievements_feed_day2"
+                        android:text="@string/tv_history_pet"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView51"
+                        android:id="@+id/tvHistoryDays3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="\u00A550獲得"
-                        android:textAlignment="textEnd"
+                        android:text="@string/tv_history_days"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvHistoryMoney3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_money"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
                 </LinearLayout>
 
-                <Button
-                    android:id="@+id/btAchievementsFeedDay11"
-                    style="@style/Widget.Material3.Button.ElevatedButton"
-                    android:layout_width="106dp"
-                    android:layout_height="75dp"
-                    android:layout_marginLeft="10dp"
-                    android:backgroundTint="@color/grayButton"
-                    android:text="GET"
-                    android:textColor="@color/black" />
-            </LinearLayout>
-            <!--1行ここまで-->
-
-
-            <!--1行ここから-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/shape_style"
-                android:orientation="horizontal"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp">
-
-                <LinearLayout
-                    android:layout_width="153dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView41"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="@string/bt_achievements_feed_day2"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView51"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="\u00A550獲得"
-                        android:textAlignment="textEnd"
-                        android:textSize="20sp" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/btAchievementsFeedDay11"
-                    style="@style/Widget.Material3.Button.ElevatedButton"
-                    android:layout_width="106dp"
-                    android:layout_height="75dp"
-                    android:layout_marginLeft="10dp"
-                    android:backgroundTint="@color/grayButton"
-                    android:text="GET"
-                    android:textColor="@color/black" />
             </LinearLayout>
             <!--1行ここまで-->
 
@@ -245,7 +190,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/shape_style"
+                android:background="@drawable/shape_style_white"
                 android:orientation="horizontal"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp">
@@ -257,33 +202,31 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/tvHistoryPet4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="@string/bt_achievements_feed_day2"
+                        android:text="@string/tv_history_pet"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView51"
+                        android:id="@+id/tvHistoryDays4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="\u00A550獲得"
-                        android:textAlignment="textEnd"
+                        android:text="@string/tv_history_days"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvHistoryMoney4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_money"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
                 </LinearLayout>
 
-                <Button
-                    android:id="@+id/btAchievementsFeedDay11"
-                    style="@style/Widget.Material3.Button.ElevatedButton"
-                    android:layout_width="106dp"
-                    android:layout_height="75dp"
-                    android:layout_marginLeft="10dp"
-                    android:backgroundTint="@color/grayButton"
-                    android:text="GET"
-                    android:textColor="@color/black" />
             </LinearLayout>
             <!--1行ここまで-->
 
@@ -292,7 +235,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/shape_style"
+                android:background="@drawable/shape_style_white"
                 android:orientation="horizontal"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp">
@@ -304,37 +247,133 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/tvHistoryPet5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="@string/bt_achievements_feed_day2"
+                        android:text="@string/tv_history_pet"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView51"
+                        android:id="@+id/tvHistoryDays5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="\u00A550獲得"
-                        android:textAlignment="textEnd"
+                        android:text="@string/tv_history_days"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvHistoryMoney5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_money"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
                 </LinearLayout>
 
-                <Button
-                    android:id="@+id/btAchievementsFeedDay11"
-                    style="@style/Widget.Material3.Button.ElevatedButton"
-                    android:layout_width="106dp"
-                    android:layout_height="75dp"
-                    android:layout_marginLeft="10dp"
-                    android:backgroundTint="@color/grayButton"
-                    android:text="GET"
-                    android:textColor="@color/black" />
+            </LinearLayout>
+            <!--1行ここまで-->
+
+            <!--1行ここから-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_style_white"
+                android:orientation="horizontal"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+                <LinearLayout
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvHistoryPet6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_pet"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvHistoryDays6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_days"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvHistoryMoney6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_money"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--1行ここまで-->
+
+            <!--1行ここから-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_style_white"
+                android:orientation="horizontal"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+                <LinearLayout
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvHistoryPet7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_pet"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvHistoryDays7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_days"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvHistoryMoney7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_history_money"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
             </LinearLayout>
             <!--1行ここまで-->
 
 
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/bt_test_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="起動時画面へ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

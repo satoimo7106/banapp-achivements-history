@@ -6,19 +6,19 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class HistoryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_history);
 
         //ボタンを押した時
-        findViewById(R.id.bt_test_history).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.bt_test_start).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //インテントの追加（これが遷移用ロジックです）
-                Intent intent = new Intent(MainActivity.this, HistoryActivity.class);
+                Intent intent = new Intent(HistoryActivity.this, StartActivity.class);
                 startActivity(intent);
             }
         });

@@ -15,5 +15,8 @@
     <string name="bt_achievements_received">RECEIVED</string>
 
     <!--ヒストリー-->
-    <string name="tv_history_title">アチーブメント</string>
+    <string name="tv_history_title">ヒストリー</string>
+    <string name="tv_history_pet">ペットの名前:たろう</string>
+    <string name="tv_history_days">生存期間:3日</string>
+    <string name="tv_history_money">得したお金:15000円</string>
 </resources>

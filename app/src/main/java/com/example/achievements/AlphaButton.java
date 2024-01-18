@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.Button;
 
-/*** 半透明になるエフェクトのボタン ***/
+/*** 半透明になるエフェクトのボタン 未使用***/
 public class AlphaButton extends Button {
     public AlphaButton(Context context) {
         super(context);

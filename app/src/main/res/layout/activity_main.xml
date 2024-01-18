@@ -70,7 +70,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/tvHistoryPet1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -79,7 +79,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/tvHistoryDays1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -119,7 +119,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/textView411"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -128,12 +128,10 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView51"
+                        android:id="@+id/textView511"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="bottom"
-                        android:text="\u00A550獲得"
+                        android:text="@string/tv_achievements_get50"
                         android:textAlignment="textEnd"
                         android:textSize="20sp" />
                 </LinearLayout>
@@ -167,7 +165,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/textView412"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -176,7 +174,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/textView51"
+                        android:id="@+id/textView512"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -186,17 +184,111 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/btAchievementsFeedDay11"
+                    android:id="@+id/btAchievementsFeedDay111"
                     style="@style/Widget.Material3.Button.ElevatedButton"
                     android:layout_width="106dp"
                     android:layout_height="75dp"
                     android:layout_marginLeft="10dp"
                     android:backgroundTint="@color/grayButton"
-                    android:text="@string/bt_achievements_try"
+                    android:text="@string/bt_achievements_get"
                     android:textColor="@color/black" />
             </LinearLayout>
             <!--1行ここまで-->
 
+
+            <!--1行ここから-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_style"
+                android:orientation="horizontal"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+                <LinearLayout
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView413"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/bt_achievements_feed_day2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView513"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="\u00A550獲得"
+                        android:textAlignment="textEnd"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btAchievementsFeedDay113"
+                    style="@style/Widget.Material3.Button.ElevatedButton"
+                    android:layout_width="106dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="@color/grayButton"
+                    android:text="@string/bt_achievements_get"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <!--1行ここまで-->
+
+            <!--1行ここから-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_style"
+                android:orientation="horizontal"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+                <LinearLayout
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView414"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/bt_achievements_feed_day2"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView514"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="\u00A550獲得"
+                        android:textAlignment="textEnd"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btAchievementsFeedDay114"
+                    style="@style/Widget.Material3.Button.ElevatedButton"
+                    android:layout_width="106dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="@color/grayButton"
+                    android:text="@string/bt_achievements_get"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <!--1行ここまで-->
 
             <!--1行ここから-->
             <LinearLayout
@@ -240,101 +332,7 @@
                     android:layout_height="75dp"
                     android:layout_marginLeft="10dp"
                     android:backgroundTint="@color/grayButton"
-                    android:text="@string/bt_achievements_try"
-                    android:textColor="@color/black" />
-            </LinearLayout>
-            <!--1行ここまで-->
-
-            <!--1行ここから-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/shape_style"
-                android:orientation="horizontal"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp">
-
-                <LinearLayout
-                    android:layout_width="153dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView41"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="@string/bt_achievements_feed_day2"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView51"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="\u00A550獲得"
-                        android:textAlignment="textEnd"
-                        android:textSize="20sp" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/btAchievementsFeedDay11"
-                    style="@style/Widget.Material3.Button.ElevatedButton"
-                    android:layout_width="106dp"
-                    android:layout_height="75dp"
-                    android:layout_marginLeft="10dp"
-                    android:backgroundTint="@color/grayButton"
-                    android:text="@string/bt_achievements_try"
-                    android:textColor="@color/black" />
-            </LinearLayout>
-            <!--1行ここまで-->
-
-            <!--1行ここから-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/shape_style"
-                android:orientation="horizontal"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp">
-
-                <LinearLayout
-                    android:layout_width="153dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView41"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical"
-                        android:text="@string/bt_achievements_feed_day2"
-                        android:textSize="20sp" />
-
-                    <TextView
-                        android:id="@+id/textView51"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="\u00A550獲得"
-                        android:textAlignment="textEnd"
-                        android:textSize="20sp" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/btAchievementsFeedDay11"
-                    style="@style/Widget.Material3.Button.ElevatedButton"
-                    android:layout_width="106dp"
-                    android:layout_height="75dp"
-                    android:layout_marginLeft="10dp"
-                    android:backgroundTint="@color/grayButton"
-                    android:text="@string/bt_achievements_try"
+                    android:text="@string/bt_achievements_get"
                     android:textColor="@color/black" />
             </LinearLayout>
             <!--1行ここまで-->
@@ -342,6 +340,15 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/bt_test_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ヒストリー"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
