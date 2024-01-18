@@ -376,4 +376,15 @@
         android:text="起動時画面へ"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_test_history_demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="動的テスト"
+        app:layout_constraintBottom_toTopOf="@+id/tvHistoryTitle"
+        app:layout_constraintEnd_toStartOf="@+id/bt_test_start"
+        app:layout_constraintStart_toEndOf="@+id/btBack"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

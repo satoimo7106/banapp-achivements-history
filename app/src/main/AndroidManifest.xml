@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".HistoryActivity"></activity>
         <activity android:name=".StartActivity"></activity>
+        <activity android:name=".HistoryTestActivity"></activity>
     </application>
 
 </manifest>
