@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">アプリ名</string>
+    <string name="app_name">banapp</string>
     <!--    アチーブメント-->
     <string name="tv_achievements_title">アチーブメント</string>
     <string name="bt_back">戻る</string>
