@@ -7,7 +7,7 @@
     android:background="@color/windowBackground">
 
     <!--    ヒストリー画面のレイアウト確認用-->
-    
+
     <!--タイトル-->
     <TextView
         android:id="@+id/tvHistoryTitle"
@@ -70,7 +70,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/tvHistoryPet1"
+                        android:id="@+id/tvAchievementsFeedDay1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/tv_history_pet"
