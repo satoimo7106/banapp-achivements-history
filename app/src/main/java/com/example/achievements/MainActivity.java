@@ -13,11 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //ボタンを押した時
+        //ボタンを押した時にヒストリー画面へ遷移
         findViewById(R.id.bt_test_history).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //インテントの追加（これが遷移用ロジックです）
                 Intent intent = new Intent(MainActivity.this, HistoryActivity.class);
                 startActivity(intent);
             }
